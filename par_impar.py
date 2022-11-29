@@ -10,10 +10,10 @@ while intento == True:
         var = int(input("Ingrese un numero entre 1 y 1000: "));
         if (var % 2 == 0):
             print("¡Es un número par!\n");
-            r = str(input("Quiere ingresar otro número?(s/n): "));
+            r = input("Quiere ingresar otro número?(s/n): ");
         else:
             print("¡Es un número impar!\n");
-            r = str(input("Quiere ingresar otro número?(s/n): "));
+            r = input("Quiere ingresar otro número?(s/n): ");
             
 
             
